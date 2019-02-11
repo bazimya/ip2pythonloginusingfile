@@ -7,7 +7,7 @@ class login:
 		
 		email.close()
 		passw=open("email.txt","r")
-		
+		passw.read(passw)
 		passw.close()
 
 		if(k!=email and f!=passw):
